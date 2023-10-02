@@ -4,12 +4,12 @@ To run the game with these players, you can follow the instructions you provided
 
 Compile the Agent.java and SamplePlayer.java classes using the game engine JAR file:
 
-```
+```ruby
 javac -cp game_engine.jar Agent.java
 javac -cp game_engine.jar SamplePlayer.java
 ```
 Run the game using the java command and specify the required parameters:
-```
+```ruby
 java -jar game_engine.jar 3 game.quoridor.QuoridorGame 1234567890 1000 Agent game.quoridor.players.BlockRandomPlayer
 ```
 This command will run the Quoridor game with the specified parameters and the Agent and BlockRandomPlayer as players.
